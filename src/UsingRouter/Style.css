@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(213, 225, 227, 0.623),rgb(223, 175, 180));
+}
+.NavLink{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(lightcoral,rgb(182, 110, 117));
+    border:2px solid rgb(246, 240, 240);
+    height:6vh;
+    font-size: 20px;
+    box-shadow: 3px 4px 2px gray;
+    position: fixed;
+    top:0vh;
+    width: 100%;
+}
+
+.studentclass{
+    position:absolute;
+    top:14vh;
+    left:4vw;
+    font-size:30px;
+    font-family:'Sofia, sans-serif';
+    color:Gray;
+}
+ .addnewstudent{
+       position:absolute;
+       width:20vw;
+       top:14vh;
+       right:6vw;
+       font-size:30px;
+       font-family:'Sofia, sans-serif';
+       color:Gray;
+       border:6px solid lightcoral;
+} 
+.addnewstudent:hover{
+    background-color: rgb(237, 173, 245);
+    cursor: pointer;
+}
+table{
+    width:100%;
+    border-top:0px ;
+    border: 1px solid rgb(199, 199, 230);
+    position:relative;
+    top:30vh;
+    border-collapse: collapse;
+    line-height: 6vh;
+   
+  
+} 
+th{
+    background-color: rgb(238, 193, 200);
+    color: lightcoral;
+}
+tr{
+    color:rgb(87, 141, 196)
+}
+tr:nth-child(even){
+    border-collapse: separate;
+    background-color: rgb(209, 224, 229);
+}
